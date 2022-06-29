@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 26</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Contagem inteligente</h1>
+    <p>Use qualquer valor nas caixas, simule contagens crescentes e regressivas. Use também valores negativos.</p>
+    
+    <section id="entrada">
+        <form action="#" method="get">
+            <label for="contInicial">Valor Inicial: 
+                <input type="number" id="contInicial" placeholder="Digite um número">
+            </label>
+            <label for="contFinal">Valor Final: 
+                <input type="number" id="contFinal" placeholder="Digite um número">
+            </label>
+            <input type="submit" value="Contar" formaction="javascript:contagem()"> <!--Enviar dados do submit diretamente para o arquivo JS-->
+        </form>
+    </section>
+
+    <section id="res">
+        <p>Preencha os dados acima e aperte o botão.</p>
+    </section>
+
+    <script src="./contagem.js"></script>
+</body>
+</html>

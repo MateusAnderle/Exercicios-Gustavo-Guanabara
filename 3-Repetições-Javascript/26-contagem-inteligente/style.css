@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body {
+    font: 12pt Arial;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+
+label {
+    width: 300px;
+}
+input[type=number] {
+    font-size: 1rem;
+    width: 150px;
+}
+
+input[type=submit] { 
+    margin-top: 20px;
+    background-color: #ccc; 
+    color: #000; 
+    font-size: 12pt; 
+    padding: 3px; 
+    border: dotted 2px #000;
+    width: 100px;
+}
